@@ -69,7 +69,7 @@ RUN python3 -m ensurepip \
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b stable https://github.com/nangis-project/NUB /root/nub
+RUN git clone -b stable https://github.com/kdjsisichdjandnf/teon /root/nub
 RUN mkdir /root/nub/bin/
 WORKDIR /root/nub/
 
